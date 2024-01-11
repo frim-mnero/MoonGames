@@ -53,11 +53,6 @@ function renderCards(cardArray) {
       // console.log(cardArray[i].imgInfo[2]);  выбор картинки из списка
        cards[i].addEventListener("click", (el) => {
          el.stopPropagation();
-        
-        // for(let i=0;i<cardArray[i].ganres.length;i++){
-        //     // containerGanres.insertAdjacentHTML('beforebegin',ganresHTML);
-        //     console.log(cardArray[i].ganres);
-        // }
         const ganresHTML = `
         <p class="detal-item-g">${cardArray[i].ganres}</p>
     `
