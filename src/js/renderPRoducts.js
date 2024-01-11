@@ -54,10 +54,10 @@ function renderCards(cardArray) {
        cards[i].addEventListener("click", (el) => {
          el.stopPropagation();
         
-        for(let i=0;i<cardArray[i].ganres.length;i++){
-            // containerGanres.insertAdjacentHTML('beforebegin',ganresHTML);
-            console.log(cardArray[i].ganres);
-        }
+        // for(let i=0;i<cardArray[i].ganres.length;i++){
+        //     // containerGanres.insertAdjacentHTML('beforebegin',ganresHTML);
+        //     console.log(cardArray[i].ganres);
+        // }
         const ganresHTML = `
         <p class="detal-item-g">${cardArray[i].ganres}</p>
     `
