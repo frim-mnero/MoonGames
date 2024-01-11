@@ -219,7 +219,6 @@ function renderCards(cardArray) {
 }
 
 function renderInfoCardPage(cardArray){
-  console.log();
   cardsAll.classList.add("none");
   infoCardPage.classList.remove("none");
 }
