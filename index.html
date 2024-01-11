@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>moonGame</title>
+    
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/infoCardPage.css">
+   
+</head>
+<body>
+    <header class="header ">
+        <div class="header-wrapper wrapper">
+            <span class="logo"><a href="" class="logo-link">moonGame</a></span>
+            <nav class="header__nav nav">
+                <ul class="header__nav_list">
+                    <li class="header__nav_list-item"><a href="#" class="nav__list-link"></a>Каталог</li>
+                    <li class="header__nav_list-item"><a href="#" class="nav__list-link">О нас</a></li>
+                    <li class="header__nav_list-item"><a href="#" class="nav__list-link">Способы оплаты</a></li>
+                    <li class="header__nav_list-item"><a href="#" class="nav__list-link">Отзывы</a></li>
+                    <li class="header__nav_list-item"><a href="#" class="nav__list-link">Контакты</a></li>
+                </ul>
+                <button class="header__nav_btn btn-register">Регистрация</button>
+                <button class="header__nav_btn btn-basket">Корзина</button>
+            </nav>
+        </div>
+        
+    </header>
+    <section class="main-content">
+        <div class="main-content-wrapper wrapper">
+            <div class="nav-btns">
+                <button class="main-content-item-btn item-btn" data-link="all">Весь каталог</button>
+                <button class="main-content-item-btn item-btn" data-link="steam">Steam</button>
+                <button class="main-content-item-btn item-btn" data-link="accaunts">Аккаунты</button>
+                <button class="main-content-item-btn item-btn" data-link="dlc">DLC</button>
+                <button class="main-content-item-btn item-btn" data-link="keys">Ключи</button>
+                <button class="main-content-item-btn item-btn" data-link="ganres">По жанрам</button>
+                <button class="main-content-item-btn item-btn" data-link="compilations">Подборки</button>
+                <button class="main-content-item-btn item-btn" data-link="news">Новинки</button>
+                <button class="main-content-item-btn item-btn" data-link="stocks">Акции</button>
+            </div>
+            <div class="main-content__serch">
+                <input type="text" id="content__search-input" placeholder="Введите название..." class="content__search-input">
+                <button class="content__search-button item-btn">Найти</button>
+            </div>
+        </div> 
+        <div class="cards">
+            <div class="cards-wrapper wrapper">
+                <div class="razdel " id="all">
+                    <h4 class="choose-chapter-title">Весь каталог</h4>
+                    <div class="сontainer-all"></div>
+                </div>
+                <div class="razdel" id="steam">
+                    <h4 class="choose-chapter-title" >Steam</h4>
+                </div>
+                <div class="razdel" id="accaunts">
+                    <h4 class="choose-chapter-title" >Аккаунты</h4>
+                </div>
+                <div class="razdel" id="dlc">
+                    <h4 class="choose-chapter-title" >dlc</h4>
+                </div>
+                <div class="razdel" id="keys">
+                    <h4 class="choose-chapter-title" >Ключи</h4>
+                </div>
+                <div class="razdel" id="ganres">
+                    <h4 class="choose-chapter-title" >По жанрам</h4>
+                </div>
+                <div class="razdel" id="compilations">
+                    <h4 class="choose-chapter-title" >Подборки</h4>
+                </div>
+                <div class="razdel" id="news">
+                    <h4 class="choose-chapter-title" >Новинки</h4>
+                </div>
+                <div class="razdel" id="stocks">
+                    <h4 class="choose-chapter-title" >Акции</h4>
+                </div>
+                
+            </div>
+        </div>
+
+
+    </section>
+    <section class="infoCardPage none wrapper">
+       
+    </section>
+<script src="./src/js/renderPRoducts.js"></script>
+<script src="./src/js/chapter.js"></script>
+</body>
+</html>
