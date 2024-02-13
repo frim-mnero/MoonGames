@@ -319,3 +319,18 @@ body{
 .req-group{
     display: flex;
 }
+@media (max-width:1360px) {
+    body{
+        max-width: 1350px;
+    }
+    .wrapper{
+        max-width: 1260px;
+    }
+
+    .header{
+        max-width: 1100px;
+    }
+    .nav__list-link{
+        text-wrap: nowrap;
+    }
+}
